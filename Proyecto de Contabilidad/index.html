@@ -7,15 +7,26 @@
     <link rel="stylesheet" type="text/css" href="./CSS/diseño.css">
 </head>
 <body>
+
+    <!--MENU--> 
     <nav class="menu">
         <ul>
-          <li><a href="index.html">Libro Diario </a></li>
-          <li><a href="#">Balance de Saldos </a></li>
-          <li><a href="#">Estado de Resultados</a></li>
-          <li><a href="#">Balance General</a></li>
+          <li><a href="index.html">Libro Diario Junio </a></li>
+          <li><a href="#">Balance de Saldos Junio</a></li>
+          <li><a href="#">Estado de Resultados Junio</a></li>
+          <li><a href="#">Balance General Junio</a></li>
        </ul>
       </nav>
-      
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Libro Diario Julio</a></li>
+          <li><a href="#">Balance de Saldos Julio</a></li>
+          <li><a href="#">Estado de Resultados Julio</a></li>
+          <li><a href="#">Balance General Julio</a></li>
+       </ul>
+      </nav>  
+
+    <!--TABLA 1-->  
     <div class="t1">
     <table class="styled-table">
     <tr><th>APERTURA JUNIO</th></tr>
@@ -29,6 +40,7 @@
     </tr>
     
     <tbody>
+    <!--FILA 1-->    
     <tr>
     <td class="styled-table td"><input type="text" onchange="Clasificacion()" id="a1"></td>
     <td class="styled-table td">Q <input type="text" onchange="Clasificacion()" id="b1" value="0"></td>
@@ -37,7 +49,7 @@
     <td class="styled-table td" id="d1"></td>
     <td class="styled-table td" id="e1"></td>
     </tr>
-    
+    <!--FILA 2-->
     <tr>
         <td class="styled-table td"><input type="text" onchange="Clasificacion()" id="a2"></td>
         <td class="styled-table td">Q <input type="text" onchange="Clasificacion()" id="b2" value="0"></td>
@@ -46,7 +58,25 @@
         <td class="styled-table td" id="d2"></td>
         <td class="styled-table td" id="e2"></td>
         </tr>
-
+    <!--FILA 3-->
+    <tr>
+        <td class="styled-table td"><input type="text" onchange="Clasificacion()" id="a3"></td>
+        <td class="styled-table td">Q <input type="text" onchange="Clasificacion()" id="b3" value="0"></td>
+        <td></td>
+        <td class="styled-table td" id="c3"></td>
+        <td class="styled-table td" id="d3"></td>
+        <td class="styled-table td" id="e3"></td>
+        </tr>
+    <!--FILA 4-->
+    <tr>
+        <td class="styled-table td"><input type="text" onchange="Clasificacion()" id="a4"></td>
+        <td class="styled-table td">Q <input type="text" onchange="Clasificacion()" id="b4" value="0"></td>
+        <td></td>
+        <td class="styled-table td" id="c4"></td>
+        <td class="styled-table td" id="d4"></td>
+        <td class="styled-table td" id="e4"></td>
+        </tr>
+    <!--FILA TOTAL-->    
     <tr>
         <td class="styled-table td"></td>
         <td class="styled-table td"></td>
@@ -60,7 +90,7 @@
     </table>
     </div>
     
-    <div class="t2">
+   <!--- <div class="t2">
     <table class="styled-table2">
         <tr><th>APERTURA JULIO</th></tr>
         <tr class="styled-table2 th">
@@ -103,7 +133,8 @@
         </tbody>
         </table>
         </div>
-        
+    --->
+
         
 </body>
 </html>
